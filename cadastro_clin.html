@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Cadastro de Clínicas</title>
+</head>
+<body style="background-color: rgb(197, 197, 197);" >
+    <div class="w3-container w3-round-xlarge w3-display-topmiddle w3-card-4 w3-third w3-white ">
+               <h3 class="w3-center w3-border w3-blue">Cadastro de Clínica</h3>
+        <form class="w3-container">
+            <div class="w3-section">
+            	<label style="font-weight: bold;">Razão Social:</label>
+                <input id="rs" class="w3-input w3-border w3-margim-bottom" type = "text" placeholder="">
+                <br>
+
+                <label style="font-weight: bold;">Nome Fantasia:</label>
+                <input id="nf" class="w3-input w3-border w3-margim-bottom" type = "text" placeholder="">
+                <br>
+
+                 <label style="font-weight: bold;">CNPJ:</label>
+                <input id="cnpj" class="w3-input w3-border w3-margim-bottom" type = "number" placeholder="1234567890123-1" maxlength="14">
+                <br>
+
+                <label style="font-weight: bold;">Telefone:</label>
+                <input class="w3-input w3-border w3-margim-bottom" type="tel" id="tel" class="input-padrao" required placeholder="(xx) xxxx-xxxx" maxlength="10">
+                <br>
+
+                <label style="font-weight: bold;">Celular:</label>
+                <input class="w3-input w3-border w3-margim-bottom" type="tel" id="cel" class="input-padrao" required placeholder="(xx) xxxxx-xxxx" maxlength="11">
+                <br>
+
+                <label style="font-weight: bold;">FAX:</label>
+                <input id="fax" class="w3-input w3-border w3-margim-bottom" type = "number" placeholder="" maxlength="60">
+                <br>
+
+                <label style="font-weight: bold;">Site:</label>
+                <input id="site" class="w3-input w3-border w3-margim-bottom" type = "text" placeholder="meusite.com.br" maxlength="100">
+                <br>
+
+                <label style="font-weight: bold;">Rua:</label>
+                <input id="rua" class="w3-input w3-border w3-margim-bottom" type = "text" placeholder="" maxlength="500">
+                <br>
+
+                <label style="font-weight: bold;">Nº:</label>
+                <input id="nm" class="w3-input w3-border w3-margim-bottom" type = "number" placeholder="" maxlength="5">
+                <br>
+
+                <label style="font-weight: bold;">Complemento:</label>
+                <input id="comp" class="w3-input w3-border w3-margim-bottom" type = "text" placeholder="" maxlength="50">
+                <br>
+
+
+                <label style="font-weight: bold;">Bairro:</label>
+                <input id="bairro" class="w3-input w3-border w3-margim-bottom" type = "text" placeholder="" maxlength="100">
+                <br>
+
+                 <label style="font-weight: bold;">Cidade:</label>
+                <input id="cid" class="w3-input w3-border w3-margim-bottom" type = "text" placeholder="" maxlength="100">
+                <br>
+
+                <label style="font-weight: bold;">CEP:</label>
+                <input id="cep" class="w3-input w3-border w3-margim-bottom" type = "number" placeholder="" maxlength="8" required placeholder="xxxxx-xxx">
+                <br>
+
+                <label style="font-weight: bold;">Ramo de atividade:</label>
+                <input id="ra" class="w3-input w3-border w3-margim-bottom" type = "text" placeholder="" maxlength="500">
+                <br>
+
+                <label style="font-weight: bold;">Email:</label>
+                <input id="mail" class="w3-input w3-border w3-margim-bottom" type = "email" placeholder="user@user.com">
+                <br>
+
+                <label style="font-weight: bold;">Confirme seu email:</label>
+                <input id="mail" class="w3-input w3-border w3-margim-bottom" type = "email" placeholder="user@user.com">
+                <br>
+
+                <label style="font-weight: bold;">Senha:</label>
+                <input id="senha" class="w3-input w3-border" type="password" placeholder="*********">
+                <br>
+
+               	<label style="font-weight: bold;">Confirme sua senha:</label>
+                <input id="senha" class="w3-input w3-border" type="password" placeholder="*********">
+                <br>
+
+                <input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
+				<label for="condicoes">Você concorda com os termos...</label>
+				<br>
+               
+               	<input type="checkbox" name="aceitaNotif" value="ok" id="notif">
+				<label for="condicoes">Você aceita receber notificações...</label>
+
+                <button class="w3-buttom w3-block w3-blue w3-section w3-padding w3-hover-blue-gray" type="submit">Enviar</button>
+            </div>
+        </form>
+       </body>
+</html>
